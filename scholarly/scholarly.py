@@ -22,7 +22,7 @@ _HEADERS = {
     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36',
     'accept': 'text/html,application/xhtml+xml,application/xml'
     }
-_HOST = 'https://scholar.google.com'
+_HOST = 'https://scholar.google.co.jp'
 _AUTHSEARCH = '/citations?view_op=search_authors&hl=en&mauthors={0}'
 _CITATIONAUTH = '/citations?user={0}&hl=en'
 _CITATIONPUB = '/citations?view_op=view_citation&citation_for_view={0}'
