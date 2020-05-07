@@ -165,9 +165,9 @@ class Publication(object):
                     self.bib['abstract'] = self.bib['abstract'][9:].strip()
             lowerlinks = databox.find('div', class_='gs_fl').find_all('a')
             for link in lowerlinks:
-                if 'Import into BibTeX' in link.text:
+                if 'BibTeX に取り込む' in link.text:
                     self.url_scholarbib = link['href']
-                if 'Cited by' in link.text:
+                if '引用元' in link.text:
                     self.citedby = int(re.findall(r'\d+', link.text)[0])
                     self.id_scholarcitedby = re.findall(_SCHOLARPUBRE, link['href'])[0]
             if __data.find('div', class_='gs_ggs gs_fl'):
