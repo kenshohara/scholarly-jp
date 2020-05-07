@@ -1,6 +1,8 @@
 # scholarly
 scholarly is a module that allows you to retrieve author and publication information from [Google Scholar](https://scholar.google.com) in a friendly, Pythonic way.
 
+scholarly-jp is a modified version of scholarly for Google Scholar in Japanese.
+
 
 ## Usage
 Because `scholarly` does not use an official API, no key is required. Simply:
@@ -106,22 +108,10 @@ Just run `scholarly.use_proxy()`. Parameters are an http and an https proxy.
 ```
 
 ## Installation
-Use `pip` to install from pypi:
+Use `pip` to install from github:
 
 ```bash
-pip install scholarly
-```
-
-or `pip` to install from github:
-
-```bash
-pip install git+https://github.com/OrganicIrradiation/scholarly.git
-```
-
-or clone the package using git:
-
-```bash
-git clone https://github.com/OrganicIrradiation/scholarly.git
+pip install git+https://github.com/kenshohara/scholarly-jp.git
 ```
 
 
